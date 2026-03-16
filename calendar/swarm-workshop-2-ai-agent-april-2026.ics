@@ -4,12 +4,12 @@ PRODID:-//Swarm Foundation//Online Workshops//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-DTSTART:20260401T120000Z
-DTEND:20260401T130000Z
+DTSTART:20260408T120000Z
+DTEND:20260408T130000Z
 SUMMARY:Swarm Workshop: Make Your AI Agent Decentralized with Swarm
-DESCRIPTION:Hands-on workshop by Swarm Foundation.\n\nFully off-chain\, autonomous & censorship-resistant.\n\nWhat you'll learn:\n• Equip Your Agent — connect an AI tool to Swarm's unstoppable storage for decentralized "memory"\n• Swarm MCP — a native decentralized data layer for your agent\n• Autonomous — no single point of failure\, fully off-chain\n\nWatch live: https://x.com/i/broadcasts/1yKAPMwDmvqxb\nDiscord support: https://discord.gg/dUS68y87U4
-URL:https://x.com/i/broadcasts/1yKAPMwDmvqxb
-LOCATION:https://x.com/i/broadcasts/1yKAPMwDmvqxb
+DESCRIPTION:Hands-on workshop by Swarm Foundation.\n\nFully off-chain\, autonomous & censorship-resistant.\n\nWhat you'll learn:\n• Equip Your Agent — connect an AI tool to Swarm's unstoppable storage for decentralized "memory"\n• Swarm MCP — a native decentralized data layer for your agent\n• Autonomous — no single point of failure\, fully off-chain\n\nWatch live: https://youtube.com/live/AP6Wr8f2m2Q\nDiscord support: https://discord.gg/dUS68y87U4
+URL:https://youtube.com/live/AP6Wr8f2m2Q
+LOCATION:https://youtube.com/live/AP6Wr8f2m2Q
 STATUS:CONFIRMED
 SEQUENCE:0
 END:VEVENT

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Swarm Foundation//Online Workshops//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART:20260512T120000Z
+DTEND:20260512T130000Z
+SUMMARY:Swarm Workshop: Decentralized Streaming
+DESCRIPTION:Hands-on workshop by Swarm Foundation.\n\nVideo\, audio & live content across P2P networks.\n\nWhat you'll learn:\n• On-demand content — host and serve media on a decentralized infrastructure\n• Censorship-resistant — no single entity can take your content down\n\nDiscord support: https://discord.gg/dUS68y87U4
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

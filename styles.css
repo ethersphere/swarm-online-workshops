@@ -212,16 +212,38 @@ img {
 
 /* Left: content */
 .workshop-featured-body {
-  flex: 0 0 60%;
+  flex: 0 0 52%;
 }
 
 /* Right: video + buttons */
 .workshop-featured-actions {
-  flex: 0 0 36%;
+  flex: 0 0 44%;
   align-self: flex-start;
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+
+.workshop-featured .workshop-video-placeholder {
+  transform: scale(1.01);
+}
+
+.workshop-featured-actions .workshop-actions {
+  width: 100%;
+  margin-top: -4px;
+}
+
+.workshop-featured-actions .cal-picker {
+  display: block;
+  width: 100%;
+}
+
+.workshop-featured-actions .cal-btn {
+  width: 100%;
+  justify-content: center;
+  padding: 12px 24px;
+  border-color: var(--color-border);
+  font-size: 0.875rem;
 }
 
 .workshop-featured-content {
@@ -436,6 +458,10 @@ img {
   margin-bottom: 16px;
 }
 
+.workshop-upcoming-card .workshop-video-placeholder {
+  transform: scale(1.02);
+}
+
 /* ==========================================================================
    Past Workshops — grid of recording cards (populated later)
    ========================================================================== */
@@ -592,6 +618,12 @@ img {
   border-color: var(--color-orange);
 }
 
+.cal-btn--disabled {
+  opacity: 0.45;
+  cursor: default;
+  pointer-events: none;
+}
+
 .cal-btn svg {
   width: 14px;
   height: 14px;
@@ -672,7 +704,6 @@ img {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%; /* 16:9 */
-  background: var(--color-bg);
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 0;

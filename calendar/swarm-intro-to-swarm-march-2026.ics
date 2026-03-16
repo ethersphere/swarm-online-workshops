@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Swarm Foundation//Online Workshops//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART:20260325T130000Z
+DTEND:20260325T140000Z
+SUMMARY:Intro to Swarm — How Swarm Works Under the Hood
+DESCRIPTION:How Swarm works under the hood — from chunks to neighborhoods.\n\nWhat you'll learn:\n• Architecture — P2P topology\, file chunking\, and how data lands in the network\n• Storage model — neighborhoods\, proximity ordering\, and radius dynamics\n• Economics — postage batches\, storage incentives\, and spam protection\n\nPresented by Aron Soos\nWatch live: https://youtube.com/live/lkrNZJFCmOc\nDiscord support: https://discord.gg/dUS68y87U4
+URL:https://youtube.com/live/lkrNZJFCmOc
+LOCATION:https://youtube.com/live/lkrNZJFCmOc
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR

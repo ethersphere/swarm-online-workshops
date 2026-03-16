@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Swarm Foundation//Online Workshops//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART:20260505T120000Z
+DTEND:20260505T130000Z
+SUMMARY:Swarm Workshop: How to Decentralize Any Frontend?
+DESCRIPTION:Hands-on workshop by Swarm Foundation.\n\nHost dApps and websites entirely on decentralized infrastructure.\n\nWhat you'll learn:\n• Beeport — web2 rails for Swarm\, upload without running a node\n• Desktop App — your own node for full decentralization\n• Bee light node + Swarm-cli — full terminal control\, scriptable and CI/CD ready\n\nWatch live: https://youtube.com/live/ofsKcDHRgv0\nDiscord support: https://discord.gg/dUS68y87U4
+URL:https://youtube.com/live/ofsKcDHRgv0
+LOCATION:https://youtube.com/live/ofsKcDHRgv0
+STATUS:CONFIRMED
+SEQUENCE:0
+END:VEVENT
+END:VCALENDAR
