@@ -475,6 +475,13 @@ img {
 @media (min-width: 768px) {
   .workshop-past-grid {
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, auto);
+  }
+
+  .workshop-past-grid > .workshop-upcoming-card {
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 8;
   }
 }
 
@@ -496,6 +503,12 @@ img {
   gap: 10px;
   color: var(--color-text-muted);
   font-size: 0.8125rem;
+}
+
+@media (min-width: 768px) {
+  .workshop-past-grid > .workshop-ghost-card {
+    grid-row: span 8;
+  }
 }
 
 .workshop-ghost-card svg {
@@ -781,6 +794,10 @@ img {
   line-height: 1.4;
 }
 
+.workshop-thumb-live--past {
+  background: #718096;
+}
+
 .workshop-thumb-date {
   font-size: 0.75rem;
   font-weight: 500;
@@ -872,6 +889,11 @@ img {
   margin-top: auto;
   padding-top: 16px;
 }
+
+.workshop-past-grid .workshop-links {
+  margin-top: 0;
+}
+
 
 /* Guide Link */
 .workshop-guide-link {
